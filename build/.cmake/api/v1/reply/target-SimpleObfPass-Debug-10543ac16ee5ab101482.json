@@ -1,0 +1,670 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libSimpleObfPass.dll"
+		},
+		{
+			"path" : "libSimpleObfPass.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"target_compile_options",
+			"target_compile_definitions",
+			"add_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/msys64/mingw64/lib/cmake/llvm/LLVMExports.cmake",
+			"C:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake",
+			"C:/msys64/mingw64/lib/cmake/llvm/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 360,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1369,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 333,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 284,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 340,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 382,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1355,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 515,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 508,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 137,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 95,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 431,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 478,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 1104,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 1105,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 1106,
+				"parent" : 27
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=c++17"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "SimpleObfPass_EXPORTS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_FILE_OFFSET_BITS=\"64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS\""
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 32,
+					"path" : "C:/msys64/mingw64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "SimpleObfPass::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/SimpleObfPass"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMPasses.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCFGuard.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMGlobalISel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMSelectionDAG.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCGData.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCodeGenTypes.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCoroutines.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMHipStdPar.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMipo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMBitWriter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMFrontendOpenMP.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMFrontendOffloading.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMObjectYAML.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMFrontendAtomic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMFrontendDirective.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMLinker.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMIRPrinter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMObjCARCOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMScalarOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMAggressiveInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMTarget.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMVectorize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMSandboxIR.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMInstrumentation.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMProfileData.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMSymbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoGSYM.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoPDB.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoCodeView.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoMSF.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoBTF.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoDWARF.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMObject.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMAsmParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMBitReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMRemarks.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMBitstreamReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMMCParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMTextAPI.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDebugInfoDWARFLowLevel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMBinaryFormat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMTargetParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libLLVMDemangle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lpsapi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lole32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-luuid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lntdll",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "C:\\msys64\\ucrt64\\lib\\libz.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "C:\\msys64\\ucrt64\\lib\\libzstd.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SimpleObfPass",
+	"nameOnDisk" : "libSimpleObfPass.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "obfuscator.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

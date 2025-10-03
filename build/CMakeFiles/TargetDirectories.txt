@@ -1,0 +1,12 @@
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/intrinsics_gen.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/vt_gen.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/omp_gen.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/acc_gen.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/target_parser_gen.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/SimpleObfPass.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/edit_cache.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/rebuild_cache.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/list_install_components.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/install.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/install/local.dir
+C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build/CMakeFiles/install/strip.dir
