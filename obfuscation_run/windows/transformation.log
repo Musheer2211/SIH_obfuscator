@@ -1,0 +1,32 @@
+==== SimpleObfPass Transformation Log ====
+Running on module: obfuscation_run/windows/test.windows.ll
+
+-> Created/found helper function: '__opaque_true'
+-> Created/found global sink: '__obf_sink'
+
+  [Entry] Modifying entry of function: main
+    - Split entry block '' into '.entry.cont'
+    - Added bogus code blocks: 'bogus.true' and 'bogus.false'
+    - Replaced original terminator with opaque conditional branch.
+  [Block] Modifying basic block: '.entry.cont' in function 'main'
+    - Split block '.entry.cont' into '.entry.cont.cont2'
+    - Added bogus code blocks: 'blk.alt1' and 'blk.alt2'
+    - Replaced original terminator with opaque conditional branch.
+  [Entry] Modifying entry of function: scanf
+    - Split entry block '' into '.entry.cont'
+    - Added bogus code blocks: 'bogus.true' and 'bogus.false'
+    - Replaced original terminator with opaque conditional branch.
+  [Block] Modifying basic block: '.entry.cont' in function 'scanf'
+    - Split block '.entry.cont' into '.entry.cont.cont2'
+    - Added bogus code blocks: 'blk.alt1' and 'blk.alt2'
+    - Replaced original terminator with opaque conditional branch.
+  [Entry] Modifying entry of function: printf
+    - Split entry block '' into '.entry.cont'
+    - Added bogus code blocks: 'bogus.true' and 'bogus.false'
+    - Replaced original terminator with opaque conditional branch.
+  [Block] Modifying basic block: '.entry.cont' in function 'printf'
+    - Split block '.entry.cont' into '.entry.cont.cont2'
+    - Added bogus code blocks: 'blk.alt1' and 'blk.alt2'
+    - Replaced original terminator with opaque conditional branch.
+
+==== Log End ====

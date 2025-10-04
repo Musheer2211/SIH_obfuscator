@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSimpleObfPass_EXPORTS -D_FILE_OFFSET_BITS=\"\\\"64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS\\\"\" -D_FILE_OFFSET_BITS=64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS @CMakeFiles/SimpleObfPass.dir/includes_CXX.rsp  -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=c++17 -fno-rtti -o CMakeFiles\\SimpleObfPass.dir\\obfuscator.cpp.obj -c C:\\Users\\mushe\\Desktop\\Musheer_CS1\\SIH\\SimpleObfPass\\obfuscator.cpp",
-  "file": "C:/Users/mushe/Desktop/Musheer_CS1/SIH/SimpleObfPass/obfuscator.cpp",
-  "output": "CMakeFiles/SimpleObfPass.dir/obfuscator.cpp.obj"
-}
-]

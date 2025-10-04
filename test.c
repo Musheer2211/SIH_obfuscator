@@ -18,7 +18,9 @@ int add(int a, int b) {
 }
 
 int main(void) {
-    int r = add(5, 7);
+    int x,y;
+    scanf("%d %d", &x, &y);
+    int r = add(x, y);
     printf("r=%d\n", r);
     return 0;
 }

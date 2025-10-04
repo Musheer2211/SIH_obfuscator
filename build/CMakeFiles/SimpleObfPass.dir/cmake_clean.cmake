@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SimpleObfPass.dir/obfuscator.cpp.obj"
-  "CMakeFiles/SimpleObfPass.dir/obfuscator.cpp.obj.d"
-  "libSimpleObfPass.dll"
-  "libSimpleObfPass.dll.a"
-  "libSimpleObfPass.dll.manifest"
-  "libSimpleObfPass.pdb"
+  "CMakeFiles/SimpleObfPass.dir/obfuscator_with_bogus_report.cpp.o"
+  "CMakeFiles/SimpleObfPass.dir/obfuscator_with_bogus_report.cpp.o.d"
+  "SimpleObfPass.pdb"
+  "SimpleObfPass.so"
 )
 
 # Per-language clean rules from dependency scanning.

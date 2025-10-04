@@ -1,0 +1,16 @@
+==== SimpleObfPass Transformation Log ====
+Running on module: obfuscation_run/linux/test.linux.ll
+
+-> Created/found helper function: '__opaque_true'
+-> Created/found global sink: '__obf_sink'
+
+  [Entry] Modifying entry of function: main
+    - Split entry block '' into '.entry.cont'
+    - Added bogus code blocks: 'bogus.true' and 'bogus.false'
+    - Replaced original terminator with opaque conditional branch.
+  [Block] Modifying basic block: '.entry.cont' in function 'main'
+    - Split block '.entry.cont' into '.entry.cont.cont2'
+    - Added bogus code blocks: 'blk.alt1' and 'blk.alt2'
+    - Replaced original terminator with opaque conditional branch.
+
+==== Log End ====
